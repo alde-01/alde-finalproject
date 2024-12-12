@@ -1,0 +1,214 @@
+body{
+    background-image: url(../images/bckgrnd4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+}
+#box1{
+    background-color: rgba(96, 100, 97, 0.496);
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+#box1 a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#box1 a:hover{
+    text-decoration: none;
+    background-color: rgb(87, 87, 84);
+    border-radius: 30px;
+    padding:10px;
+    color: rgb(228, 229, 228);
+}
+#div1{
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: solid (165, 132, 118);
+}
+#h1-{
+    padding: 10px;
+    margin-left: 50px;
+    width: 300px;
+    font-size: 40px;
+    background-color: rgb(234, 230, 224);
+    border: 4px solid rgb(64, 56, 47);
+    color: rgb(41, 41, 41);
+}
+#m1{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: rgba(196, 186, 186, 0.363);
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+#m1 span{
+    font-size: 35px;
+    color: rgb(41, 41, 41);
+    padding-left: 100px;
+    padding-right: 800px;
+    text-decoration: underline rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#m1 img{
+    width: 200px;
+    height: 260px;
+    transition: 1s;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+#m1 img:hover{
+    width: 350px;
+    height: 290px;    
+}
+#m2{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: rgba(196, 186, 186, 0.363);
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+#m2 span{
+    font-size: 35px;
+    color: rgb(41, 41, 41);
+    padding-left: 100px;
+    padding-right: 1200px;
+    text-decoration: underline rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#m2 img{
+    width: 100px;
+    height: 160px;
+    transition: 1s;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+#m2 img:hover{
+    width: 250px;
+    height: 280px;    
+}
+#m3{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 500px;
+    background-color: rgba(196, 186, 186, 0.363);
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+#m3 span{
+    font-size: 35px;
+    color: rgb(41, 41, 41);
+    padding-left: 100px;
+    padding-right: 800px;
+    text-decoration: underline rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#m3 img{
+    width: 100px;
+    height: 160px;
+    transition: 1s;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+#m3 img:hover{
+    width: 230px;
+    height: 300px;    
+}
+#h1--{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 40px;
+    width: 150px;
+    background-color: rgb(234, 230, 224);
+    border: 4px solid rgb(64, 56, 47);
+    color: rgb(41, 41, 41);
+}
+#div2{
+    margin-bottom: 50px;
+}
+#div2 span{
+    font-size: 35px;
+    color: rgb(41, 41, 41);
+    background-color: rgba(196, 186, 186, 0.363);
+    border-radius: 35px;
+    border: 2px solid rgb(16, 16, 16);
+    padding: 12px;
+    margin-left: 200px;
+    margin-top: 10px;
+    line-height: 80px;
+    text-decoration: underline gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 768px){
+    #box1 a{
+        padding-left: 1px;
+        padding-right: 2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+        margin: 0%;
+    }
+    #box1 a:hover{
+        padding: 5px;
+    }
+    #h1-{
+        padding: 10px;
+        font-size: 4vw;
+        width: 150px;
+    } 
+    #m1 span{
+        padding-right: 0%;
+    } 
+    #m1 img{
+        padding-left: 10px;
+        width: 180px;
+        height: 230px;
+        transition: 1s;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #m2 span{
+        padding-right: 100px;
+    } 
+    #m3 span{
+        padding-right: 0%;
+    } 
+    #m3{
+        margin-right: 10px;
+    }
+    #h1--{
+        padding: 10px;
+        font-size: 4vw;
+        width: 80px;
+    }  
+    #div2 span{
+        font-size: 4vw;
+        line-height: 60px;
+        margin-left: 100px;
+        margin-right: 0%;
+    }
+    #div2{
+        margin-bottom: 50px;
+    }
+
+
+}

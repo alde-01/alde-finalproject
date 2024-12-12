@@ -1,0 +1,113 @@
+body{
+    background-image: url(../images/bckgrnd3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+    width: 100%;
+}
+#box1{
+    background-color: rgba(142, 245, 163, 0.496);
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+#box1 a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#box1 a:hover{
+    text-decoration: none;
+    background-color: rgb(87, 87, 84);
+    border-radius: 30px;
+    padding:10px;
+    color: rgb(91, 246, 184);
+}
+.recent-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.work-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.038);
+    margin-top: 50px;
+}
+
+.work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-item:hover img {
+    transform: scale(1.1);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: left;
+}
+
+.work-item:hover .overlay {
+    opacity: 1;
+}
+.overlay a{
+    color: #8be7c5;
+}
+
+.overlay h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 255, 217);
+}
+
+.overlay p {
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+.footer{
+  background-color:#287c5d;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+@media (max-width:768px){
+    #box1 a{
+        padding-left: 1px;
+        padding-right: 2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 3vw;
+        margin: 0%;
+    }
+    #box1 a:hover{
+        padding: 5px;
+    }
+}
